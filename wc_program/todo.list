@@ -1,0 +1,14 @@
+-- find a better way to output the ordering of option flags
+-- find a way for word-occurences to match words other that on word-boundaries
+		i.e. words that are not just separated by space,tabs or newlines.
+	We more or less want somehting similart to a regexp. The user will input a string
+		(i.e. "a string") and the wc utility will parse the file for that pattern of
+		the string, but still separated by word boundary.
+-- When given an invalid input file, be able to determine the cause
+		such as because the file is a directory
+		because the file does not exist.
+-- Add new options
+		--longest-word // prints out the longest word.
+-- find a way to handle file names which happend to begin with '-'
+-- Modularize the wc such that I can have a single .h and .c file that
+	can be used as source for other programs.

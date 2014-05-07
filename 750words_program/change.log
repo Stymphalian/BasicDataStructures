@@ -1,0 +1,29 @@
+Version = 1.0
+------------------------------------------------------------------------
+Usage noin [options]*
+Options:
+	-h,--help     -- Print this usage message.
+	-v,--version  -- Print the version information.
+	-r,--rewrite  -- Restart today's entry.
+	--no-header    -- Do not print the header in this entry.
+	-a,--author [author]  -- Set the author for this entry.
+	-e,--editor [editor]  -- Set the path of the text editor.
+	-wc,--word-count [wc] -- set the path to the wordcount program.
+	--config [file].ini   -- Use this as the default configuration file.
+
+-- open up a text editor to edit the entry
+-- run a user defined wc after exiting the text editor
+-- add date timestamp header to the top of the entry
+-- add author name to the top of the entry.
+
+-----------------------------------------------------------------------
+version 1.1
+-- added the -c,--count option
+
+-----------------------------------------------------------------------
+version 1.2
+-- added the -d,--dest option
+-----------------------------------------------------------------------
+veresion 1.20
+-- fixed a bug where the config file was not being found when a 
+	--dest path was given.

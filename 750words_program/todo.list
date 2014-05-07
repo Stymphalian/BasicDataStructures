@@ -1,0 +1,9 @@
+-- rewrite the architecture of the program in order to split up the logic.
+	main.c will be the utility that can be run from command-line
+	750words.c and 750words.h will provid an interface for running the program.
+-- Use an sqlite3 database for something
+-- find a way to constanly display the number for words typed while typing in the text editor
+	I may have to use a fork() in order to run a wc in parralel to the editor.
+	the wc will constatly scan the file for updates and perform a run whenever a word is typed?
+	no that would just suck ball. it would be running so fucking much, after every single character
+	typed it would parse the entire file.
