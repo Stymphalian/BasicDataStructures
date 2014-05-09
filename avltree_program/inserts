@@ -1,0 +1,72 @@
+insert 50 50
+print 3
+reset 
+
+insert 50 50
+insert 75 75
+print 3
+reset
+
+insert 50 50
+insert 25 25
+insert 75 75
+print 3
+reset
+
+insert 50 50
+insert 25 25
+insert 75 75
+insert 10 10
+insert 35 35
+insert 65 65
+insert 85 85
+insert 60 60
+insert 70 70
+print 3
+reset
+
+
+insert 50 50
+insert 25 25
+insert 75 75
+insert 10 10
+insert 35 35
+insert 65 65
+insert 85 85
+insert 60 60
+insert 70 70
+insert 86 86
+insert 87 87
+insert 88 88
+print 3
+reset
+
+
+
+insert 1 1
+insert 2 2
+insert 3 3
+print 3
+insert 4 4
+insert 5 5
+print 3
+insert 6 6
+insert 7 7
+print 3
+reset
+
+
+insert 50 50
+insert 25 25
+insert 75 75
+insert 10 10
+insert 35 35
+insert 65 65
+insert 85 85
+insert 60 60
+insert 70 70
+insert 90 90
+insert 95 95
+insert 100 100
+insert 98 98
+graph
